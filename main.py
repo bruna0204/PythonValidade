@@ -50,7 +50,7 @@ def index(tipo, quantidade ):
         })
     except ValueError:
         return jsonify({
-            'status': 'error',
+            'status': 'erro',
             'mensagem': 'digite apenas numeros inteiros!',
         })
 
